@@ -5,90 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB' crossorigin='anonymous'>
-
-
+            
 </head>
 
 <body>
 
     <header>
-        <nav>
 
-            <div class="name">
-                <a href="index.html">Steve N</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+            <div class="nav-container" style="color: #666; margin: 100px;">
+                <a class="navbar-brand" href="index.html">Steve N</a>
+            </div>
+                    
+            <div class="nav-container" style="color: #666; margin: 100px;">            
+                <span class="navbar-text">
+
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Portfolio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </span>
             </div>
 
-            <div class="navigation">
-                <a href="index.html">About Me</a>
-                <a href="contact.html"> Contact</a>
-                <a href="gallery.html"> Gallery</a>
-            </div>
-                
         </nav>
+                
     </header>    
 
-    <div class="flex-container-gallery">
-        <!-- <div class="flex-container"></div> -->
-        <article class="article-gallery">
+    <div class="container">
 
-                <div class="responsive">
-                    <div class="gallery">
-                        <a target="_blank" href="http://brandcut.com/">
-                            <img src="http://www.logospire.com/images/4484.png" alt="Zip Hub by brandcut">
-                        </a>
-                        <div class="desc">Zip Hub</div>
-                        </div>
-                    </div>
-                      
-                <div class="responsive">
-                    <div class="gallery">
-                        <a target="_blank" href="http://hcwong.com/">
-                            <img src="http://www.logospire.com/images/4489.jpg" alt="GreenOne by hcwong">
-                        </a>
-                        <div class="desc">GreenOne</div>
-                        </div>
-                    </div>                      
+        <div class="row" style="height: 100px;">
+        </div>    
 
-                <div class="responsive">
-                    <div class="gallery">
-                        <a target="_blank" href="http://www.logospire.com/">
-                            <img src="http://www.logospire.com/images/4729.png" alt="Million Droplets by methodform">
-                        </a>
-                        <div class="desc">Million Droplets</div>
-                        </div>
-                    </div>
+        <div class="row" style="margin: 30px;">
 
-                <div class="responsive">
-                    <div class="gallery">
-                        <a target="_blank" href="http://webcoredesign.co.uk/">
-                            <img src="http://www.logospire.com/images/4811.jpg" alt="Draft by webcoredesign">
-                        </a>
-                        <div class="desc">Draft</div>
-                        </div>
-                </div>
+            <figure class="col-md-4">
+                <a class="black-text" href="http://brandcut.com/">
+                    <img alt="Zip Hub by brandcut" src="http://www.logospire.com/images/4484.png" class="img-fluid img-thumbnail">
+                    <h4 class="text-center my-1">Zip Hub</h4>
+                </a>
+            </figure>
 
-                <div class="responsive">
-                    <div class="gallery">
-                        <a target="_blank" href="http://brandcut.com/">
-                            <img src="http://www.logospire.com/images/4483.png" alt="Gaucho Wine by brandcut">
-                        </a>
-                        <div class="desc">Gaucho Wine</div>
-                        </div>
-                </div>
+            <figure class="col-md-4">
+                <a class="black-text" href="http://hcwong.com/">
+                    <img alt="GreenOne by hcwong" src="http://www.logospire.com/images/4489.jpg" class="img-fluid img-thumbnail">
+                    <h4 class="text-center my-1">GreenOne</h4>
+                </a>
+            </figure>
+        
+            <figure class="col-md-4">
+                <a class="black-text" href="http://www.logospire.com/">
+                    <img alt="Million Droplets by methodform" src="http://www.logospire.com/images/4729.png" class="img-fluid img-thumbnail">
+                    <h4 class="text-center my-1">Million Droplets</h4>
+                </a>
+            </figure>
 
-                <div class="responsive">
-                    <div class="gallery">
-                        <a target="_blank" href="https://logopond.com/ru_ferret/profile/25265">
-                            <img src="http://www.logospire.com/images/4699.png" alt="Pelican by ru_ferret">
-                        </a>
-                        <div class="desc">Pelican</div>
-                    </div>
-                </div>
+            <figure class="col-md-4">
+                <a class="black-text" href="http://webcoredesign.co.uk">
+                    <img alt="Draft by webcoredesign" src="http://www.logospire.com/images/4811.jpg" class="img-fluid img-thumbnail">
+                    <h4 class="text-center my-1">Draft</h4>
+                </a>
+            </figure>
 
-                <div class="clearfix"></div>
-        </article>
-        <!-- </div> -->
+            <figure class="col-md-4">
+                <a class="black-text" href="http://brandcut.com/">
+                    <img alt="Gaucho Wine by brandcut" src="http://www.logospire.com/images/4483.png" class="img-fluid img-thumbnail">
+                    <h4 class="text-center my-1">Gaucho Wine</h4>
+                </a>
+            </figure>
+        
+            <figure class="col-md-4">
+                <a class="black-text" href="https://logopond.com/ru_ferret/profile/25265">
+                    <img alt="Pelican by ru_ferret" src="http://www.logospire.com/images/4699.png" class="img-fluid img-thumbnail">
+                    <h4 class="text-center my-1">Pelican</h4>
+                </a>
+            </figure>
+
+        </div> 
+        
+        <div class="row" style="height: 100px;">
+        </div>  
+        
     </div>
 
     <footer>copyright</footer>
